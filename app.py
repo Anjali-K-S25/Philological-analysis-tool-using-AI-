@@ -172,8 +172,8 @@ CSS_STYLE = """
 # -----------------------------------------
 # Gradio UI
 # -----------------------------------------
-with gr.Blocks(title="A Comprehensive Philological Analysis Tool Using AI", css=CSS_STYLE) as demo:
-
+with gr.Blocks(css=CSS_STYLE) as demo:
+    gr.HTML("<h1 style='text-align:center;'>A Comprehensive Philological Analysis Tool Using AI</h1>")
     gr.Markdown("## 📘 A Comprehensive Philological Analysis Tool Using AI")
 
     with gr.Tabs():
@@ -234,4 +234,4 @@ You may extend:
 ✔ File uploading and dataset inspection  
 """)
 
-demo.launch()
+demo.launch(title="A Comprehensive Philological Analysis Tool Using AI")
