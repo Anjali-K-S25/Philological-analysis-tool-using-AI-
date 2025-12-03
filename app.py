@@ -235,4 +235,4 @@ You may extend:
 """)
         
 
-demo.launch()
+demo.launch(share=True)
