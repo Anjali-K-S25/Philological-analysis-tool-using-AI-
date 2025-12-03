@@ -233,5 +233,6 @@ You may extend:
 ✔ Advanced transliteration models  
 ✔ File uploading and dataset inspection  
 """)
+        
 
-demo.launch(title="A Comprehensive Philological Analysis Tool Using AI")
+demo.launch()
