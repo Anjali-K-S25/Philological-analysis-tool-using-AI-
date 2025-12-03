@@ -13,7 +13,7 @@ import random
 # -------------------------
 # Load dataset (robustly)
 # -------------------------
-df = pd.read_excel("Philological_7525.xlsx")
+df = pd.read_excel("https://docs.google.com/spreadsheets/d/1wVjbCd0OAZIFzG4eR2CTnr1xVwKotmGj/edit?usp=drivesdk&ouid=110674712515447085100&rtpof=true&sd=true")
 
 # Make sure required columns exist
 required_cols = ['original_text', 'corrupted_text', 'restored_text', 'english_meaning', 'language']
