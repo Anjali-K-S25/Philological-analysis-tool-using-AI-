@@ -172,7 +172,7 @@ CSS_STYLE = """
 # -----------------------------------------
 # Gradio UI
 # -----------------------------------------
-with gr.Blocks(css=CSS_STYLE) as demo:
+with gr.Blocks() as demo:
     gr.HTML("<h1 style='text-align:center;'>A Comprehensive Philological Analysis Tool Using AI</h1>")
     gr.Markdown("## 📘 A Comprehensive Philological Analysis Tool Using AI")
 
