@@ -1,0 +1,8 @@
+gradio 
+pandas 
+numpy 
+scikit-learn 
+tensorflow 
+openpyxl 
+matplotlib 
+pillow -q
